@@ -1,5 +1,8 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import DashboardIndex from '../views/dashboard/Index'
+import axios  from 'axios'
+
+Vue.prototype.$http = axios
 
 const routes = [
   {
