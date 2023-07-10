@@ -3,8 +3,9 @@
     <div class="container mx-auto px-4 flex justify-center items-center h-16">
       <a href="/" class="text-white text-xl font-semibold">Logo</a>
       <div class="flex ml-4">
-        <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md">Home</a>
-        <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md">Nueva Pelicula</a>
+        <router-link to="/" class="text-gray-300 hover:text-white px-3 py-2 rounded-md">Home</router-link>
+        <router-link to="/new_movie" class="text-gray-300 hover:text-white px-3 py-2 rounded-md">Nueva Película</router-link>
+        <router-link to="/new_category" class="text-gray-300 hover:text-white px-3 py-2 rounded-md">Nueva Categoría</router-link>
       </div>
     </div>
   </nav>
